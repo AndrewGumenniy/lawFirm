@@ -1,0 +1,526 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+header {
+  background: #4e5944;
+  padding: 40px 0px 40px;
+  border-bottom: 2px solid white;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.clearfix {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content="";
+  line-height: 0;
+  height: 1%;
+  visibility: hidden;
+}
+
+img {
+  display: block;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-left: 30px;
+  display: list-item;
+}
+
+li a {
+  color: #b8c6ac;
+  font-size: 13px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px #000;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.navigation {
+  float: right;
+  margin: 28px 0 0;
+}
+
+ul {
+  display: block;
+}
+
+.toppart {
+  height: 399.4px;
+  background: linear-gradient(180deg, #d9d9d9, #bebebe);
+}
+
+.toppart>div img {
+  float: right;
+}
+
+.toppart .detail {
+  font-family: Times, "Times New Roman", serif;
+  height: 185px;
+  line-height: 48px;
+  width: 308px;
+  text-align: center;
+  position: absolute;
+  left: 54px;
+  top: 90px;
+}
+
+.toppart .detail p {
+  color: #4e5944;
+  font: 25px/48px "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.toppart .detail h1 {
+  color: #4e5944;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  text-transform: none;
+}
+
+.toppart>div {
+  background-color: #e9e9e9;
+  width: 958px;
+  height: 382px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+  box-shadow: 6px 0 4px -4px #bebebe, -6px 0 4px -4px #bebebe;
+  -moz-box-shadow: 6px 0 4px -4px #bebebe, -6px 0 4px -4px #bebebe;
+  -webkit-box-shadow: 6px 0 4px -4px #A9A9A9, -6px 0 4px -4px #A9A9A9;
+}
+
+.textpart {
+  background: linear-gradient(180deg, #dddddd, #e8e8e8);
+  height: 210px;
+  border: 1px solid #ffffff;
+}
+
+.texpart>div {
+  width: 940px;
+}
+
+.testimonial {
+  border-left: dotted #CACACA 1px;
+  float: right;
+  width: 260px;
+  margin-left: 20px;
+  padding: 28px 34px 35px 17px;
+}
+
+h2 {
+  color: #626262;
+  font: 19px/24px "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.textpart h2 {
+  color: #57614e;
+  margin-bottom: 24px;
+}
+
+p {
+  color: #626262;
+  font: 14px/24px Arial, Helvetica, sans-serif;
+}
+
+.testimonial>p {
+  margin: 0;
+}
+
+.testimonial>span {
+  color: #626262;
+  display: block;
+  font: 14px/28px Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+.textpart h1 {
+  font-size: 32px;
+  line-height: 36px;
+  padding: 18px 0 9px;
+  text-transform: none;
+}
+
+h1 {
+  color: #57614e;
+  font: 29px/30px "Times New Roman", Times, serif;
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+}
+
+.placeholder {
+  margin-left: 13px;
+  width: 634px;
+  border-right: dotted white 1px;
+  padding-bottom: 23px;
+}
+
+.placeholder p a {
+  color: #626262;
+}
+
+.imagegallerypart {
+  height: 399.4px;
+  background: #D9D9D9;
+  padding: 30px 0 10px 0;
+}
+
+.imagegallerypart > h2 {
+  color: #728063;
+  width: 940px;
+  margin: 0 auto 24px;
+  padding: 0 10px;
+}
+
+.imagegallerypart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.imagegallerypart li {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+
+.imagegallerypart li p b {
+  display: block;
+  text-transform: uppercase;
+}
+
+.button {
+  display: inline-block;
+  margin-left: 4px;
+  text-align: center;
+  background: #6b6b6b;
+  color: white;
+  font-weight: bold;
+  width: 97px;
+  height: 29px;
+  border-radius: 0px 2px 0px 2px;
+  border: none;
+  font: 12px/30px Arial, Helvetica, sans-serif;
+}
+
+.button:hover {
+  background: black;
+}
+
+.frame>p {
+  margin-left: 4px;
+}
+
+.topfooter {
+  border-top: 2px solid white;
+  background: #D9D9D9;  
+  height: 206px;
+  box-shadow: inset 0px 1px 40px 10px #cfcfcf;
+}
+
+.section1 {
+  float: left;
+  min-height: 146px;
+  width: 259px;
+  padding: 30px;
+}
+
+.section2 {
+  float: left;
+  min-height: 146px;
+  width: 259px;
+  border-left: 1px solid #c2c2c2;
+  padding: 30px;
+}
+
+.section3 {
+  float: left;
+  min-height: 146px;
+  width: 259px;
+  border-left: 1px solid #c2c2c2;
+  padding: 30px;
+}
+
+.buttonemail {
+  display: inline-block;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 5px;
+  background: #6b6b6b;
+  color: white;
+  text-decoration: none;
+  width: 197px;
+  border-radius: 0px 2px 0px 2px;
+  border: none;
+  font: 12px/38px Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #000;
+}
+
+.buttonemail:hover {
+  background: black;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font: 14px/28px Arial, Helvetica, sans-serif;
+  color: #626262;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.topfooter p {
+  margin: 0;
+  font: 12px/24px Arial, Helvetica, sans-serif;
+}
+
+.section2 span {
+  text-transform: uppercase;
+}
+
+.bottomfooter {
+  border-top: 1px solid white;
+  background: #4e5944;
+  height: 44px;
+}
+
+.bottomfooter p {
+  padding-top: 8px;
+  color: #b5c1aa;
+  font: 11px/36px Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-right: 10px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.networks {
+  float: left;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0 0 0;
+}
+
+.networks a {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin-right: 6px;
+}
+
+.nwbackground {
+  background: url(images/network.png) no-repeat;
+}
+
+.facebook {
+  background-position: 0 -8px;
+}
+
+.twitter {
+  /*  background: url(images/network.png) no-repeat;*/
+  
+  background-position: 0 -36px;
+}
+
+.googleplus {
+  /*  background: url(images/network.png) no-repeat;*/
+  
+  background-position: 0 -64px;
+}
+
+.pinterest {
+  /*background: url(images/network.png) no-repeat;*/
+  
+  background-position: 0 -94px;
+}
+
+
+@media screen and (max-device-width: 600px) {
+  .imagegallerypart {
+    height: 1250px;
+  }
+  .imagegallerypart li {
+    width: 450px;
+    margin: 10px 10px;
+  }
+  .button {
+    width: 227px;
+    height: 69px;
+    font: 32px/66px Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font: 39px/44px "Times New Roman", Times, serif;
+  }
+  p {
+    font: 30px/24px Arial, Helvetica, sans-serif;
+  }
+  .textpart h1 {
+    margin-top: 10px;
+    font-size: 52px;
+  }
+  .placeholder {
+    width: 940px;
+  }
+  .testimonial {
+    display: none;
+  }
+  .textpart {
+    height: 320px;
+  }
+  .imagegallerypart b {
+    margin-bottom: 20px;
+  }
+  .toppart .detail p {
+    font: 40px/38px "Times New Roman", Times, serif;
+  }
+  .toppart .detail h1 {
+    font: 45px/38px "Times New Roman", Times, serif;
+  }
+  li {
+    margin-top: 10px;
+    margin-left: 13px;
+  }
+  li a {
+    font-size: 28px;
+  }
+  .navigation {
+    float: none;
+    margin: 0;
+  }
+  header {
+    padding: 40px 0px 100px;
+  }
+  .logo img {
+    display: block;
+    margin: 0 140px 20px;
+  }
+  .topfooter {
+    height: 286px;
+  }
+  .section2 {
+    width: 400px;
+  }
+  .section3 {
+    width: 400px;
+  }
+  .section1 {
+    display: none;
+  }
+  .topfooter p {
+    margin: 0;
+    font: 22px/24px Arial, Helvetica, sans-serif;
+  }
+  .buttonemail {
+    height: 58px;
+    line-height: 38px;
+    margin-top: 5px;
+    width: 397px;
+    border-radius: 0px 2px 0px 2px;
+    border: none;
+    font: 26px/58px Arial, Helvetica, sans-serif;
+  }
+  .bottomfooter p {
+  padding-top: 8px;
+  font: 18px/36px Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-right: 10px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.networks {
+  float: left;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0 0 0;
+}
+
+.networks a {
+  display: inline-block;
+  height: 29px;
+  width: 29px;
+  margin-right: 6px;
+}
+}
+
+@media screen and (max-device-width: 350px) {
+  .imagegallerypart {
+    height: 4650px;
+  }
+  .imagegallerypart li {
+    width: 900px;
+    margin: 20px 10px;
+  }
+  .button {
+    width: 327px;
+    height: 89px;
+    font: 42px/86px Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font: 39px/44px "Times New Roman", Times, serif;
+  }
+  p {
+    font: 40px/34px Arial, Helvetica, sans-serif;
+  }
+  .section2 {
+    width: 800px;
+  }
+  .section3 {
+    width: 800px;
+  }
+  .section1 {
+    display: none;
+  }
+  .topfooter {
+    height: 886px;
+  }
+  .topfooter p {
+    margin: 0;
+    font: 32px/34px Arial, Helvetica, sans-serif;
+  }
+  h4{
+    font-size: 32px;
+  }
+  .buttonemail {
+    height: 88px;
+    line-height: 38px;
+    margin-top: 5px;
+    width: 597px;
+    border-radius: 0px 2px 0px 2px;
+    border: none;
+    font: 34px/88px Arial, Helvetica, sans-serif;
+  }
+   .bottomfooter  {
+    display:none;
+  }
+}
