@@ -10,9 +10,9 @@ div {
 }
 
 header {
-  background: #4e5944;
-  padding: 40px 0px 40px;
-  border-bottom: 2px solid white;
+    background: #4e5944;
+    padding: 25px 0px 25px;
+    border-bottom: 2px solid white;
 }
 
 .logo {
